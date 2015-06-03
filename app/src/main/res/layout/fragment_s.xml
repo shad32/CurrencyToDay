@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5897A0">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingLeft="15dp"
+        android:text="EUR/RUB"
+        android:id="@+id/currencySecond"
+        android:shadowColor="#9a000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="69.8934"
+
+            android:id="@+id/Cur1"
+            android:layout_gravity="center_vertical"
+            android:textSize="150px"
+            android:shadowColor="#9a000000"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="3"/>
+    </LinearLayout>
+</LinearLayout>
